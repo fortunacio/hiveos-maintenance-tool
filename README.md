@@ -9,7 +9,9 @@ This script is specifically designed for automating the maintenance process of m
 To install this maintenance script on your Hive OS setup, use the `curl` command to download it from GitHub releases and make it executable. Replace `URL_TO_SCRIPT` with the actual URL to the script in your GitHub repository's releases.
 
 ```bash
-curl -LJO URL_TO_SCRIPT
+curl -LJO https://github.com/fortunacio/hiveos-maintenance-tool/archive/refs/tags/v0.1.0.zip
+unzip hiveos-maintenance-tool-0.1.0.zip
+cd hiveos-maintenance-tool-0.1.0.zip
 chmod +x hiveos_maintenance.sh
 ```
 
