@@ -11,7 +11,7 @@ To install this maintenance script on your Hive OS setup, use the `curl` command
 ```bash
 curl -LJO https://github.com/fortunacio/hiveos-maintenance-tool/archive/refs/tags/v0.1.0.zip
 unzip hiveos-maintenance-tool-0.1.0.zip
-cd hiveos-maintenance-tool-0.1.0.zip
+cd hiveos-maintenance-tool-0.1.0
 chmod +x hiveos_maintenance.sh
 ```
 
