@@ -46,7 +46,8 @@ run_command 2 "Cleaning all installed miner versions" "hpkg purge"
 run_command 3 "Updating Nvidia drivers to the latest version, if available" "nvidia-driver-update"
 run_command 4 "Removing all old Nvidia driver installation packages" "nvidia-driver-update --remove"
 run_command 6 "Reinstall nvidia-settings only" "nvidia-driver-update --nvs"
-run_command 7 "Checking disk space..." "df -h"
+run_command 7 "Remove unused drivers at /hive-driver-pack" "rm /hive-drivers-pack/NV*"
+run_command 8 "Checking disk space..." "df -h"
 
 
 # If all commands executed successfully, prompt the user to press a key to restart
